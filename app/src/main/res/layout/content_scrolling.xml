@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingLeft="16dp"
+android:paddingRight="16dp"
+android:paddingTop="16dp"
+android:paddingBottom="16dp"
+app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:scrollbars="vertical"
+tools:context="com.example.sarvesh.mytime.ScrollingActivity"
+tools:showIn="@layout/activity_scrolling">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:id = "@+id/recycler_view"
+        android:clipToPadding="false"
+        >
+    </android.support.v7.widget.RecyclerView>
+</android.support.v4.widget.NestedScrollView>
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="@dimen/text_margin"-->
+    <!--android:text="@string/large_text" />-->
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:paddingLeft="16dp"-->
+    <!--android:paddingRight="16dp"-->
+    <!--android:paddingTop="16dp"-->
+    <!--android:paddingBottom="16dp"-->
+    <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+    <!--tools:context="com.example.sarvesh.mytime.ScrollingActivity"-->
+    <!--tools:showIn="@layout/activity_scrolling">-->
